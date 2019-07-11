@@ -43,5 +43,5 @@ def encrypt():
     rots = int(request.form['rot'])
     msg = request.form['text']
     #e_msg = (rotate_string(msg,rots))
-
+    return rotate_string(msg,rots)
 app.run()
